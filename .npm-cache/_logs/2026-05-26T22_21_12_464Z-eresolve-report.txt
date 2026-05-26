@@ -1,0 +1,18 @@
+'Log files:
+A:\portfolio\.npm-cache\_logs\2026-05-26T22_21_12_464Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: infra-forward-portfolio@1.0.0
+Found: eslint@8.57.1
+node_modules/eslint
+  dev eslint@"^8.57.1" from the root project
+
+Could not resolve dependency:
+peer eslint@">=9.0.0" from eslint-config-next@16.2.6
+node_modules/eslint-config-next
+  dev eslint-config-next@"16.2.6" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

@@ -1,0 +1,27 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:A:\portfolio\.npmrc
+5 silly config load:file:C:\Users\khana\.npmrc
+6 silly config load:file:C:\Users\khana\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ls postcss
+8 verbose argv "ls" "postcss" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:A:\portfolio\.npm-cache\_logs\2026-05-26T22_25_53_109Z-
+10 verbose logfile A:\portfolio\.npm-cache\_logs\2026-05-26T22_25_53_109Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly logfile done cleaning log files
+14 verbose stack Error: invalid: postcss@8.4.31 A:\portfolio\node_modules\next\node_modules\postcss
+14 verbose stack     at LS.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\ls.js:206:9)
+14 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:208:9)
+14 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:67:5)
+15 error code ELSPROBLEMS
+16 error invalid: postcss@8.4.31 A:\portfolio\node_modules\next\node_modules\postcss
+17 verbose cwd A:\portfolio
+18 verbose os Windows_NT 10.0.26200
+19 verbose node v24.11.0
+20 verbose npm  v11.6.1
+21 verbose exit 1
+22 verbose code 1
+23 error A complete log of this run can be found in: A:\portfolio\.npm-cache\_logs\2026-05-26T22_25_53_109Z-debug-0.log
