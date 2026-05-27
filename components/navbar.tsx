@@ -44,7 +44,7 @@ export function Navbar({ onCommandOpen }: NavbarProps) {
             CS
           </span>
           <span className="hidden text-sm font-semibold text-white sm:block">
-            Arfiny's Portfolio
+            {"Arfiny's Portfolio"}
           </span>
         </a>
 

@@ -6,7 +6,6 @@ import { Hero } from "@/components/sections/hero";
 import { Infrastructure } from "@/components/sections/infrastructure";
 import { Journey } from "@/components/sections/journey";
 import { Projects } from "@/components/sections/projects";
-import { RecruiterBrief } from "@/components/sections/recruiter-brief";
 import { TechStack } from "@/components/sections/tech-stack";
 
 export default function Home() {
