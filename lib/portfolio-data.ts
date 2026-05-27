@@ -91,7 +91,8 @@ export const techCategories = [
 export const projects = [
  {
     name: "ClassCircle",
-    category: "Full Stack Collaboration Platform",
+    category: "Full Stack",
+    image: "/classcircle.png",
     description:
       "A modern student collaboration platform that helps learners connect, share resources, manage academic discussions, and collaborate in realtime through an intuitive community-driven experience.",
 
@@ -132,8 +133,8 @@ export const projects = [
       "Docker",
     ],
 
-    github: "https://github.com/yourusername/classcircle",
-    demo: "https://classcircle.example.com",
+    github: "https://github.com/Arfiny007/student-collab-platform",
+    demo: "https://classcircle.vercel.app",
   },
   {
     name: "ReleaseForge Pipeline",
@@ -146,7 +147,7 @@ export const projects = [
     challenges: ["Standardized environments", "Reduced manual release work", "Made rollbacks predictable"],
     outcomes: ["Repeatable preview environments", "Clear release gates", "Lower deployment risk"],
     stack: ["Docker", "Kubernetes", "Nginx", "GitHub Actions", "Linux"],
-    github: "https://github.com/yourusername/releaseforge-pipeline",
+    github: "https://github.com/Arfiny007/releaseforge-pipeline",
     demo: "https://releaseforge.example.com",
   },
   {
@@ -160,7 +161,7 @@ export const projects = [
     challenges: ["Hardened IAM boundaries", "Documented failure paths", "Balanced cost and availability"],
     outcomes: ["Reusable IaC modules", "Stronger security posture", "Observable runtime behavior"],
     stack: ["AWS", "Terraform", "CloudWatch", "Docker", "PostgreSQL"],
-    github: "https://github.com/yourusername/cloudguard-blueprint",
+    github: "https://github.com/Arfiny007/cloudguard-blueprint",
     demo: "https://cloudguard.example.com",
   },
 ];
@@ -196,27 +197,27 @@ export const capabilityMatrix = [
 export const journey = [
   {
     year: "2026",
-    title: "Job-Ready Engineering Focus",
-    icon: Rocket,
-    text: "Sharpening production engineering, DevOps workflows, system design, and recruiter-ready project storytelling.",
+    title: "CSE Graduate • Aspiring Full-Stack Developer",
+    icon: GraduationCap,
+    text: "Graduated from American International University-Bangladesh (AIUB) with a major in Software Engineering. Currently pursuing opportunities as a Full-Stack Developer in both remote and local teams while continuing to build production-style applications and strengthen real-world engineering skills.",
   },
   {
     year: "2025",
-    title: "Computer Science Graduate",
-    icon: GraduationCap,
-    text: "Built strong fundamentals in algorithms, databases, networking, operating systems, and software architecture.",
+    title: "Production-Ready Full-Stack Projects",
+    icon: Rocket,
+    text: "Focused on developing modern full-stack applications with responsive frontend experiences, backend APIs, authentication systems, database design, and scalable project architecture.",
   },
   {
     year: "2024",
-    title: "Cloud and CI/CD Practice",
+    title: "DevOps, Cloud & Deployment Learning",
     icon: GitBranch,
-    text: "Designed automated deployment paths with containers, Linux servers, and quality gates.",
+    text: "Explored Docker, Linux servers, Git workflows, CI/CD concepts, and deployment pipelines to better understand how modern applications are built, deployed, and maintained.",
   },
   {
     year: "2023",
-    title: "Full-Stack Product Builder",
+    title: "Frontend to Full-Stack Journey",
     icon: Layers3,
-    text: "Delivered responsive interfaces, API integrations, data models, and polished user workflows.",
+    text: "Started the software development journey by building interactive web interfaces, learning JavaScript frameworks, integrating APIs, and creating user-focused web applications.",
   },
 ];
 
