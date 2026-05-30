@@ -100,12 +100,12 @@ export const projects = [
       "React/Next.js frontend with a Node.js + Express backend, PostgreSQL database management through TypeORM, Dockerized development environment, JWT authentication, and scalable REST APIs.",
 
     features: [
-      "Secure JWT authentication",
-      "Realtime discussion & collaboration",
-      "Student posts and resource sharing",
-      "Role-based admin moderation",
-      "Responsive premium UI/UX",
-      "Protected routes and API security",
+      "Real-time Communication Engine: Fully integrated 1:1 messaging system featuring WebSockets for typing indicators, online presence tracking, and message reactions.",
+      "Dynamic Social Ecosystem: Engineered a high-performance social feed with infinite scroll ($take$ / $skip$ pagination), multi-media posting (images/files), and interactive polling.",
+      "Discovery & Analytics: Built a hashtag-based discovery engine and a comprehensive analytics dashboard to visualize user engagement metrics through interactive charts.",
+      "Advanced Content Management: Developed a robust Admin Suite with a moderation queue, granular user role management (block/mute), and real-time notification dispatch.",
+      "Secure Authentication: Implemented a secure JWT-based authentication flow including registration, login, and automated password recovery endpoints.",
+      "Interactive Social Experience: Users can engage with posts through likes, saves, and polls, or share temporary updates via a dedicated Stories viewer.",
     ],
 
     challenges: [

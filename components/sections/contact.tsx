@@ -43,7 +43,7 @@ export function Contact() {
     const body = encodeURIComponent(
       `Name: ${values.name}\nEmail: ${values.email}\nRole/Company: ${values.role}\n\n${values.message}`,
     );
-    window.open(`mailto:hello@example.com?subject=${subject}&body=${body}`, "_self");
+    window.open(`<mailto:Arfiny007@gmail.com>?subject=${subject}&body=${body}`, "_self");
     setSent(true);
     reset();
   }
